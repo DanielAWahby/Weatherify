@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Weatherify
+//  Simple Weather
 //
-//  Created by Daniel Wahby on 10/04/2021.
+//  Created by Daniel Wahby on 9/28/20.
 //
 
 import UIKit
@@ -12,6 +12,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?
 
 
+    @available(iOS 13.0, *)
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.

@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9CE670C099719895C965E20A /* Pods_Weatherify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C697FA92D1810595E33D6A0A /* Pods_Weatherify.framework */; };
 		A7455BA02622057E008602F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7455B9F2622057E008602F2 /* AppDelegate.swift */; };
 		A7455BA22622057E008602F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7455BA12622057E008602F2 /* SceneDelegate.swift */; };
-		A7455BA42622057E008602F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7455BA32622057E008602F2 /* ViewController.swift */; };
 		A7455BA72622057E008602F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7455BA52622057E008602F2 /* Main.storyboard */; };
 		A7455BA92622057F008602F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7455BA82622057F008602F2 /* Assets.xcassets */; };
 		A7455BAC2622057F008602F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7455BAA2622057F008602F2 /* LaunchScreen.storyboard */; };
+		A7A7FC5F262206A5009E0DD0 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A7FC5A262206A4009E0DD0 /* CurrentWeather.swift */; };
+		A7A7FC60262206A5009E0DD0 /* WeatherRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A7FC5B262206A4009E0DD0 /* WeatherRequest.swift */; };
+		A7A7FC61262206A5009E0DD0 /* WeatherLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A7FC5C262206A4009E0DD0 /* WeatherLocation.swift */; };
+		A7A7FC62262206A5009E0DD0 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A7FC5D262206A4009E0DD0 /* Weather.swift */; };
+		A7A7FC63262206A5009E0DD0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A7FC5E262206A5009E0DD0 /* MainViewController.swift */; };
+		A7A7FC6A26220842009E0DD0 /* LaunchIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A7FC6926220842009E0DD0 /* LaunchIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90DF93169DFF0C9242A497F4 /* Pods-Weatherify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weatherify.debug.xcconfig"; path = "Target Support Files/Pods-Weatherify/Pods-Weatherify.debug.xcconfig"; sourceTree = "<group>"; };
 		A7455B9C2622057E008602F2 /* Weatherify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weatherify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7455B9F2622057E008602F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7455BA12622057E008602F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A7455BA32622057E008602F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A7455BA62622057E008602F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7455BA82622057F008602F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7455BAB2622057F008602F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7455BAD2622057F008602F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7A7FC5A262206A4009E0DD0 /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		A7A7FC5B262206A4009E0DD0 /* WeatherRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherRequest.swift; sourceTree = "<group>"; };
+		A7A7FC5C262206A4009E0DD0 /* WeatherLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherLocation.swift; sourceTree = "<group>"; };
+		A7A7FC5D262206A4009E0DD0 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Weather.swift; path = ../../SimpleWeather/SimpleWeather/Weather.swift; sourceTree = "<group>"; };
+		A7A7FC5E262206A5009E0DD0 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A7A7FC6926220842009E0DD0 /* LaunchIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchIcon.png; sourceTree = "<group>"; };
+		C697FA92D1810595E33D6A0A /* Pods_Weatherify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weatherify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9E7F84B37BF687DBE03122 /* Pods-Weatherify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weatherify.release.xcconfig"; path = "Target Support Files/Pods-Weatherify/Pods-Weatherify.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CE670C099719895C965E20A /* Pods_Weatherify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2338D48F1062C295D71EA651 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90DF93169DFF0C9242A497F4 /* Pods-Weatherify.debug.xcconfig */,
+				FB9E7F84B37BF687DBE03122 /* Pods-Weatherify.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8168286643CE576474351EB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C697FA92D1810595E33D6A0A /* Pods_Weatherify.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A7455B932622057E008602F2 = {
 			isa = PBXGroup;
 			children = (
 				A7455B9E2622057E008602F2 /* Weatherify */,
 				A7455B9D2622057E008602F2 /* Products */,
+				2338D48F1062C295D71EA651 /* Pods */,
+				8168286643CE576474351EB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,9 +90,14 @@
 		A7455B9E2622057E008602F2 /* Weatherify */ = {
 			isa = PBXGroup;
 			children = (
+				A7A7FC6926220842009E0DD0 /* LaunchIcon.png */,
 				A7455B9F2622057E008602F2 /* AppDelegate.swift */,
+				A7A7FC5A262206A4009E0DD0 /* CurrentWeather.swift */,
+				A7A7FC5E262206A5009E0DD0 /* MainViewController.swift */,
+				A7A7FC5D262206A4009E0DD0 /* Weather.swift */,
+				A7A7FC5C262206A4009E0DD0 /* WeatherLocation.swift */,
+				A7A7FC5B262206A4009E0DD0 /* WeatherRequest.swift */,
 				A7455BA12622057E008602F2 /* SceneDelegate.swift */,
-				A7455BA32622057E008602F2 /* ViewController.swift */,
 				A7455BA52622057E008602F2 /* Main.storyboard */,
 				A7455BA82622057F008602F2 /* Assets.xcassets */,
 				A7455BAA2622057F008602F2 /* LaunchScreen.storyboard */,
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7455BB02622057F008602F2 /* Build configuration list for PBXNativeTarget "Weatherify" */;
 			buildPhases = (
+				EA66F69DD46AE12AB4F359B6 /* [CP] Check Pods Manifest.lock */,
 				A7455B982622057E008602F2 /* Sources */,
 				A7455B992622057E008602F2 /* Frameworks */,
 				A7455B9A2622057E008602F2 /* Resources */,
+				2AB8E6163F7DFB4773C75D13 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7455BAC2622057F008602F2 /* LaunchScreen.storyboard in Resources */,
+				A7A7FC6A26220842009E0DD0 /* LaunchIcon.png in Resources */,
 				A7455BA92622057F008602F2 /* Assets.xcassets in Resources */,
 				A7455BA72622057E008602F2 /* Main.storyboard in Resources */,
 			);
@@ -132,13 +174,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2AB8E6163F7DFB4773C75D13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Weatherify/Pods-Weatherify-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Weatherify/Pods-Weatherify-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Weatherify/Pods-Weatherify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA66F69DD46AE12AB4F359B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Weatherify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A7455B982622057E008602F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7455BA42622057E008602F2 /* ViewController.swift in Sources */,
+				A7A7FC63262206A5009E0DD0 /* MainViewController.swift in Sources */,
+				A7A7FC61262206A5009E0DD0 /* WeatherLocation.swift in Sources */,
+				A7A7FC60262206A5009E0DD0 /* WeatherRequest.swift in Sources */,
 				A7455BA02622057E008602F2 /* AppDelegate.swift in Sources */,
+				A7A7FC5F262206A5009E0DD0 /* CurrentWeather.swift in Sources */,
+				A7A7FC62262206A5009E0DD0 /* Weather.swift in Sources */,
 				A7455BA22622057E008602F2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,17 +371,19 @@
 		};
 		A7455BB12622057F008602F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90DF93169DFF0C9242A497F4 /* Pods-Weatherify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EF43AHQ8L4;
+				DEVELOPMENT_TEAM = 5UUTQV7999;
 				INFOPLIST_FILE = Weatherify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.DanielAWahby.Weatherify;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DanielWahby.Weatherify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,17 +392,19 @@
 		};
 		A7455BB22622057F008602F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB9E7F84B37BF687DBE03122 /* Pods-Weatherify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EF43AHQ8L4;
+				DEVELOPMENT_TEAM = 5UUTQV7999;
 				INFOPLIST_FILE = Weatherify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.DanielAWahby.Weatherify;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DanielWahby.Weatherify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_0" orientation="portrait" appearance="dark"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,10 +12,33 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="jBJ-Mb-Kce">
+                                <rect key="frame" x="75" y="302" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jBJ-Mb-Kce" secondAttribute="height" multiplier="1:1" id="aKR-cf-kXY"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weatherify" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sHq-sq-yti">
+                                <rect key="frame" x="0.0" y="552" width="390" height="84.333333333333371"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <color key="textColor" red="0.14901960780000001" green="0.65098039220000004" blue="0.82745098039999998" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jBJ-Mb-Kce" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.615385" id="5OL-L2-Asu"/>
+                            <constraint firstItem="sHq-sq-yti" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Ado-lY-RcS"/>
+                            <constraint firstItem="sHq-sq-yti" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="K83-xh-MZg"/>
+                            <constraint firstItem="sHq-sq-yti" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.1" id="XFQ-he-TGA"/>
+                            <constraint firstItem="sHq-sq-yti" firstAttribute="top" secondItem="jBJ-Mb-Kce" secondAttribute="bottom" constant="10" id="gdH-Xj-KYO"/>
+                            <constraint firstItem="jBJ-Mb-Kce" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="nx5-Bg-NYw"/>
+                            <constraint firstItem="jBJ-Mb-Kce" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ytZ-B5-KZD"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -22,4 +46,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="LaunchIcon.png" width="1024" height="1024"/>
+    </resources>
 </document>

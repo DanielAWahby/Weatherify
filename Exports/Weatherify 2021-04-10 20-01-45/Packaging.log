@@ -1,0 +1,230 @@
+2021-04-10 18:01:37 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f9a807c2c50; archive(resolved)='<IDEArchive: 0x7f9a74499d40>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f9a7ba13fc0>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9a7e70ec50; teamID='5UUTQV7999', teamName='Daniel Wahby', teamType='Individual', username='ashrafgergeswahby@gmail.com', isFreeProvisioningTeam='0'>'>
+	Chain (12, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7f9a807c2c50; archive = '<IDEArchive: 0x7f9a74499d40>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f9a7ba13fc0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9a7e70ec50; teamID='5UUTQV7999', teamName='Daniel Wahby', teamType='Individual', username='ashrafgergeswahby@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7f9a807b47a0; archive = '<IDEArchive: 0x7f9a74499d40>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f9a7ba13fc0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9a7e70ec50; teamID='5UUTQV7999', teamName='Daniel Wahby', teamType='Individual', username='ashrafgergeswahby@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f9a807e6f20; archive = '<IDEArchive: 0x7f9a74499d40>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f9a7ba13fc0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9a7e70ec50; teamID='5UUTQV7999', teamName='Daniel Wahby', teamType='Individual', username='ashrafgergeswahby@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f9a7e3d6980; archive = '<IDEArchive: 0x7f9a74499d40>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f9a7ba13fc0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9a7e70ec50; teamID='5UUTQV7999', teamName='Daniel Wahby', teamType='Individual', username='ashrafgergeswahby@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f9a7c7a8590; archive = '<IDEArchive: 0x7f9a74499d40>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f9a7ba13fc0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9a7e70ec50; teamID='5UUTQV7999', teamName='Daniel Wahby', teamType='Individual', username='ashrafgergeswahby@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f9a807b1880; archive = '<IDEArchive: 0x7f9a74499d40>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f9a7ba13fc0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9a7e70ec50; teamID='5UUTQV7999', teamName='Daniel Wahby', teamType='Individual', username='ashrafgergeswahby@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f9a7ee63010; archive = '<IDEArchive: 0x7f9a74499d40>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f9a7ba13fc0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9a7e70ec50; teamID='5UUTQV7999', teamName='Daniel Wahby', teamType='Individual', username='ashrafgergeswahby@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f9a7ee7bbb0; archive = '<IDEArchive: 0x7f9a74499d40>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f9a7ba13fc0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9a7e70ec50; teamID='5UUTQV7999', teamName='Daniel Wahby', teamType='Individual', username='ashrafgergeswahby@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f9a7ee97640; archive = '<IDEArchive: 0x7f9a74499d40>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f9a7ba13fc0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9a7e70ec50; teamID='5UUTQV7999', teamName='Daniel Wahby', teamType='Individual', username='ashrafgergeswahby@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f9a8074aea0; archive = '<IDEArchive: 0x7f9a74499d40>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f9a7ba13fc0>', team='(null)'>
+	<IDEDistributionContext: 0x7f9a8079a650; archive = '<IDEArchive: 0x7f9a74499d40>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f9a7ba13fc0>', team='(null)'>
+	<IDEDistributionContext: 0x7f9a7c6229e0; archive = '<IDEArchive: 0x7f9a74499d40>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7f9a807c2c50>
+2021-04-10 18:01:37 +0000  Processing step: IDEDistributionCreateDestRootStep
+2021-04-10 18:01:37 +0000  Processing step: IDEDistributionCopyItemStep
+2021-04-10 18:01:37 +0000  Running /usr/bin/ditto '-V' '/Users/danielwahby/Library/Developer/Xcode/Archives/2021-04-10/Weatherify 10-04-2021, 8.00 PM.xcarchive/Products/Applications/Weatherify.app' '/var/folders/dh/34sh65hn71g4mnyrcts9fx800000gn/T/XcodeDistPipeline.~~~DJo1lZ/Root/Payload/Weatherify.app'
+2021-04-10 18:01:37 +0000  >>> Copying /Users/danielwahby/Library/Developer/Xcode/Archives/2021-04-10/Weatherify 10-04-2021, 8.00 PM.xcarchive/Products/Applications/Weatherify.app 
+2021-04-10 18:01:37 +0000  copying file ./_CodeSignature/CodeResources ... 
+2021-04-10 18:01:37 +0000  5623 bytes for ./_CodeSignature/CodeResources
+2021-04-10 18:01:37 +0000  copying file ./AppIcon60x60@2x.png ... 
+2021-04-10 18:01:37 +0000  6561 bytes for ./AppIcon60x60@2x.png
+2021-04-10 18:01:37 +0000  copying file ./LaunchIcon.png ... 
+2021-04-10 18:01:37 +0000  120474 bytes for ./LaunchIcon.png
+2021-04-10 18:01:37 +0000  copying file ./Base.lproj/Main.storyboardc/UINavigationController-3aN-1E-nqO.nib ... 
+2021-04-10 18:01:37 +0000  2072 bytes for ./Base.lproj/Main.storyboardc/UINavigationController-3aN-1E-nqO.nib
+2021-04-10 18:01:37 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2021-04-10 18:01:37 +0000  6905 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2021-04-10 18:01:37 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2021-04-10 18:01:37 +0000  276 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2021-04-10 18:01:37 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2021-04-10 18:01:37 +0000  3289 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2021-04-10 18:01:37 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2021-04-10 18:01:37 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2021-04-10 18:01:37 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2021-04-10 18:01:37 +0000  copying file ./Assets.car ... 
+2021-04-10 18:01:37 +0000  308000 bytes for ./Assets.car
+2021-04-10 18:01:37 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2021-04-10 18:01:37 +0000  8602 bytes for ./AppIcon76x76@2x~ipad.png
+2021-04-10 18:01:37 +0000  copying file ./Frameworks/Alamofire.framework/_CodeSignature/CodeResources ... 
+2021-04-10 18:01:37 +0000  1798 bytes for ./Frameworks/Alamofire.framework/_CodeSignature/CodeResources
+2021-04-10 18:01:37 +0000  copying file ./Frameworks/Alamofire.framework/Alamofire ... 
+2021-04-10 18:01:37 +0000  8492416 bytes for ./Frameworks/Alamofire.framework/Alamofire
+copying file ./Frameworks/Alamofire.framework/Info.plist ... 
+2021-04-10 18:01:37 +0000  739 bytes for ./Frameworks/Alamofire.framework/Info.plist
+copying file ./embedded.mobileprovision ... 
+11551 bytes for ./embedded.mobileprovision
+copying file ./Weatherify ... 
+2021-04-10 18:01:37 +0000  603072 bytes for ./Weatherify
+copying file ./Info.plist ... 
+2021-04-10 18:01:37 +0000  1886 bytes for ./Info.plist
+2021-04-10 18:01:37 +0000  copying file ./PkgInfo ... 
+2021-04-10 18:01:37 +0000  8 bytes for ./PkgInfo
+2021-04-10 18:01:37 +0000  /usr/bin/ditto exited with 0
+2021-04-10 18:01:37 +0000  Processing step: IDEDistributionEmbedProfileStep
+2021-04-10 18:01:37 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9a807e1350; bundleID='org.cocoapods.Alamofire', path='<DVTFilePath:0x7f9a7eb6dca0:'/Users/danielwahby/Library/Developer/Xcode/Archives/2021-04-10/Weatherify 10-04-2021, 8.00 PM.xcarchive/Products/Applications/Weatherify.app/Frameworks/Alamofire.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f9a7ee6e610; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f9a8087c930; name='Apple Development: Daniel Wahby (2D42Q257NR)', hash='C9B310542F9850EAEA59E70BAB72BDD437D3FDEF', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f9a7ba2c690>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-11-04 14:47:33 +0000''>', entitlements='(null)', teamID='5UUTQV7999', identifier='org.cocoapods.Alamofire', executablePath='<DVTFilePath:0x7f9a7e6ae7b0:'/Users/danielwahby/Library/Developer/Xcode/Archives/2021-04-10/Weatherify 10-04-2021, 8.00 PM.xcarchive/Products/Applications/Weatherify.app/Frameworks/Alamofire.framework/Alamofire'>', hardenedRuntime='0'>'>
+2021-04-10 18:01:37 +0000  Processing step: IDEDistributionInfoPlistStep
+2021-04-10 18:01:37 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-04-10 18:01:37 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-04-10 18:01:37 +0000  Processing step: IDEDistributionItemRemovalStep
+2021-04-10 18:01:37 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2021-04-10 18:01:37 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2021-04-10 18:01:37 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2021-04-10 18:01:37 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2021-04-10 18:01:37 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2021-04-10 18:01:37 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/dh/34sh65hn71g4mnyrcts9fx800000gn/T/XcodeDistPipeline.~~~DJo1lZ/Root/Payload/Weatherify.app/Frameworks/Alamofire.framework/Alamofire' '-l' '-o' '/var/folders/dh/34sh65hn71g4mnyrcts9fx800000gn/T/XcodeDistPipeline.~~~DJo1lZ/Root/Payload/Weatherify.app/Frameworks/Alamofire.framework/Alamofire'
+2021-04-10 18:01:37 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-04-10 18:01:37 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/dh/34sh65hn71g4mnyrcts9fx800000gn/T/XcodeDistPipeline.~~~DJo1lZ/Root/Payload/Weatherify.app/Weatherify' '-l' '-o' '/var/folders/dh/34sh65hn71g4mnyrcts9fx800000gn/T/XcodeDistPipeline.~~~DJo1lZ/Root/Payload/Weatherify.app/Weatherify'
+2021-04-10 18:01:37 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-04-10 18:01:37 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2021-04-10 18:01:37 +0000  Running /usr/bin/ditto '-V' '/Users/danielwahby/Library/Developer/Xcode/Archives/2021-04-10/Weatherify 10-04-2021, 8.00 PM.xcarchive/BCSymbolMaps/4C52DAE0-507F-3AF2-BD1C-1E29292BBC2A.bcsymbolmap' '/var/folders/dh/34sh65hn71g4mnyrcts9fx800000gn/T/XcodeDistPipeline.~~~DJo1lZ/Root/BCSymbolMaps/4C52DAE0-507F-3AF2-BD1C-1E29292BBC2A.bcsymbolmap'
+2021-04-10 18:01:37 +0000  >>> Copying /Users/danielwahby/Library/Developer/Xcode/Archives/2021-04-10/Weatherify 10-04-2021, 8.00 PM.xcarchive/BCSymbolMaps/4C52DAE0-507F-3AF2-BD1C-1E29292BBC2A.bcsymbolmap 
+2021-04-10 18:01:37 +0000  copying file ./4C52DAE0-507F-3AF2-BD1C-1E29292BBC2A.bcsymbolmap ... 
+2021-04-10 18:01:37 +0000  736995 bytes for ./4C52DAE0-507F-3AF2-BD1C-1E29292BBC2A.bcsymbolmap
+2021-04-10 18:01:37 +0000  /usr/bin/ditto exited with 0
+2021-04-10 18:01:37 +0000  Running /usr/bin/ditto '-V' '/Users/danielwahby/Library/Developer/Xcode/Archives/2021-04-10/Weatherify 10-04-2021, 8.00 PM.xcarchive/BCSymbolMaps/DA15885C-EA86-3824-ACEB-C42D1765433A.bcsymbolmap' '/var/folders/dh/34sh65hn71g4mnyrcts9fx800000gn/T/XcodeDistPipeline.~~~DJo1lZ/Root/BCSymbolMaps/DA15885C-EA86-3824-ACEB-C42D1765433A.bcsymbolmap'
+2021-04-10 18:01:37 +0000  >>> Copying /Users/danielwahby/Library/Developer/Xcode/Archives/2021-04-10/Weatherify 10-04-2021, 8.00 PM.xcarchive/BCSymbolMaps/DA15885C-EA86-3824-ACEB-C42D1765433A.bcsymbolmap 
+2021-04-10 18:01:37 +0000  copying file ./DA15885C-EA86-3824-ACEB-C42D1765433A.bcsymbolmap ... 
+2021-04-10 18:01:37 +0000  86350 bytes for ./DA15885C-EA86-3824-ACEB-C42D1765433A.bcsymbolmap
+2021-04-10 18:01:37 +0000  /usr/bin/ditto exited with 0
+2021-04-10 18:01:37 +0000  Processing step: IDEDistributionSymbolsStep
+2021-04-10 18:01:37 +0000  Excluding symbols for Alamofire.framework
+2021-04-10 18:01:37 +0000  Excluding symbols for Weatherify.app
+2021-04-10 18:01:37 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2021-04-10 18:01:37 +0000  Processing step: IDEDistributionAppThinningStep
+2021-04-10 18:01:37 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2021-04-10 18:01:37 +0000  Processing step: IDEDistributionArchThinningStep
+2021-04-10 18:01:37 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/dh/34sh65hn71g4mnyrcts9fx800000gn/T/XcodeDistPipeline.~~~DJo1lZ/Root/Payload/Weatherify.app/Frameworks/Alamofire.framework/Alamofire' '-verify_arch' 'arm64e'
+2021-04-10 18:01:37 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-04-10 18:01:37 +0000  Skipping architecture thinning for item "Alamofire" because arch "arm64e" wasn't found
+2021-04-10 18:01:37 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/dh/34sh65hn71g4mnyrcts9fx800000gn/T/XcodeDistPipeline.~~~DJo1lZ/Root/Payload/Weatherify.app/Weatherify' '-verify_arch' 'arm64e'
+2021-04-10 18:01:37 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-04-10 18:01:37 +0000  Skipping architecture thinning for item "Weatherify" because arch "arm64e" wasn't found
+2021-04-10 18:01:37 +0000  Processing step: IDEDistributionODRStep
+2021-04-10 18:01:37 +0000  Processing step: IDEDistributionStripXattrsStep
+2021-04-10 18:01:37 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9a807e1350; bundleID='org.cocoapods.Alamofire', path='<DVTFilePath:0x7f9a7eb6dca0:'/Users/danielwahby/Library/Developer/Xcode/Archives/2021-04-10/Weatherify 10-04-2021, 8.00 PM.xcarchive/Products/Applications/Weatherify.app/Frameworks/Alamofire.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f9a7ee6e610; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f9a807da6d0; name='Apple Development: Daniel Wahby (2D42Q257NR)', hash='C9B310542F9850EAEA59E70BAB72BDD437D3FDEF', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f9a7ba96a00>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-11-04 14:47:33 +0000''>', entitlements='(null)', teamID='5UUTQV7999', identifier='org.cocoapods.Alamofire', executablePath='<DVTFilePath:0x7f9a7e6ae7b0:'/Users/danielwahby/Library/Developer/Xcode/Archives/2021-04-10/Weatherify 10-04-2021, 8.00 PM.xcarchive/Products/Applications/Weatherify.app/Frameworks/Alamofire.framework/Alamofire'>', hardenedRuntime='0'>'>
+2021-04-10 18:01:37 +0000  Running /usr/bin/xattr '-crs' '/var/folders/dh/34sh65hn71g4mnyrcts9fx800000gn/T/XcodeDistPipeline.~~~DJo1lZ/Root/Payload/Weatherify.app'
+2021-04-10 18:01:37 +0000  /usr/bin/xattr exited with 0
+2021-04-10 18:01:37 +0000  Processing step: IDEDistributionCodesignStep
+2021-04-10 18:01:37 +0000  Entitlements for <IDEDistributionItem: 0x7f9a807e1350; bundleID='org.cocoapods.Alamofire', path='<DVTFilePath:0x7f9a7eb6dca0:'/Users/danielwahby/Library/Developer/Xcode/Archives/2021-04-10/Weatherify 10-04-2021, 8.00 PM.xcarchive/Products/Applications/Weatherify.app/Frameworks/Alamofire.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f9a7ee6e610; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f9a807eb400; name='Apple Development: Daniel Wahby (2D42Q257NR)', hash='C9B310542F9850EAEA59E70BAB72BDD437D3FDEF', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f9a7bd29dd0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-11-04 14:47:33 +0000''>', entitlements='(null)', teamID='5UUTQV7999', identifier='org.cocoapods.Alamofire', executablePath='<DVTFilePath:0x7f9a7e6ae7b0:'/Users/danielwahby/Library/Developer/Xcode/Archives/2021-04-10/Weatherify 10-04-2021, 8.00 PM.xcarchive/Products/Applications/Weatherify.app/Frameworks/Alamofire.framework/Alamofire'>', hardenedRuntime='0'>'>: {
+}
+2021-04-10 18:01:37 +0000  Entitlements for <IDEDistributionItem: 0x7f9a807e1350; bundleID='org.cocoapods.Alamofire', path='<DVTFilePath:0x7f9a7eb6dca0:'/Users/danielwahby/Library/Developer/Xcode/Archives/2021-04-10/Weatherify 10-04-2021, 8.00 PM.xcarchive/Products/Applications/Weatherify.app/Frameworks/Alamofire.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f9a7ee6e610; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f9a80865410; name='Apple Development: Daniel Wahby (2D42Q257NR)', hash='C9B310542F9850EAEA59E70BAB72BDD437D3FDEF', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f9a80887c50>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-11-04 14:47:33 +0000''>', entitlements='(null)', teamID='5UUTQV7999', identifier='org.cocoapods.Alamofire', executablePath='<DVTFilePath:0x7f9a7e6ae7b0:'/Users/danielwahby/Library/Developer/Xcode/Archives/2021-04-10/Weatherify 10-04-2021, 8.00 PM.xcarchive/Products/Applications/Weatherify.app/Frameworks/Alamofire.framework/Alamofire'>', hardenedRuntime='0'>'> are: {
+}
+2021-04-10 18:01:37 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a807e1350; bundleID='org.cocoapods.Alamofire', path='<DVTFilePath:0x7f9a7eb6dca0:'/Users/danielwahby/Library/Developer/Xcode/Archives/2021-04-10/Weatherify 10-04-2021, 8.00 PM.xcarchive/Products/Applications/Weatherify.app/Frameworks/Alamofire.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f9a7ee6e610; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f9a808688d0; name='Apple Development: Daniel Wahby (2D42Q257NR)', hash='C9B310542F9850EAEA59E70BAB72BDD437D3FDEF', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f9a808661f0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-11-04 14:47:33 +0000''>', entitlements='(null)', teamID='5UUTQV7999', identifier='org.cocoapods.Alamofire', executablePath='<DVTFilePath:0x7f9a7e6ae7b0:'/Users/danielwahby/Library/Developer/Xcode/Archives/2021-04-10/Weatherify 10-04-2021, 8.00 PM.xcarchive/Products/Applications/Weatherify.app/Frameworks/Alamofire.framework/Alamofire'>', hardenedRuntime='0'>'> to: /var/folders/dh/34sh65hn71g4mnyrcts9fx800000gn/T/XcodeDistPipeline.~~~DJo1lZ/entitlements~~~s1aeVL
+2021-04-10 18:01:37 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'CAF37C48DC9E80F0FAFB8EF87333F437A2989ADA' '--entitlements' '/var/folders/dh/34sh65hn71g4mnyrcts9fx800000gn/T/XcodeDistPipeline.~~~DJo1lZ/entitlements~~~s1aeVL' '--preserve-metadata=identifier,flags,runtime' '/var/folders/dh/34sh65hn71g4mnyrcts9fx800000gn/T/XcodeDistPipeline.~~~DJo1lZ/Root/Payload/Weatherify.app/Frameworks/Alamofire.framework'
+2021-04-10 18:01:37 +0000  /var/folders/dh/34sh65hn71g4mnyrcts9fx800000gn/T/XcodeDistPipeline.~~~DJo1lZ/Root/Payload/Weatherify.app/Frameworks/Alamofire.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.Alamofire]
+2021-04-10 18:01:37 +0000  /usr/bin/codesign exited with 0
+2021-04-10 18:01:37 +0000  Entitlements for <IDEDistributionItem: 0x7f9a7e9fbc00; bundleID='com.DanielWahby.Weatherify', path='<DVTFilePath:0x7f9a7ba39430:'/Users/danielwahby/Library/Developer/Xcode/Archives/2021-04-10/Weatherify 10-04-2021, 8.00 PM.xcarchive/Products/Applications/Weatherify.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f9a807c40e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f9a807eb540; name='Apple Development: Daniel Wahby (2D42Q257NR)', hash='C9B310542F9850EAEA59E70BAB72BDD437D3FDEF', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f9a75a62ba0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-11-04 14:47:33 +0000''>', entitlements='{
+    "application-identifier" = "5UUTQV7999.com.DanielWahby.Weatherify";
+    "com.apple.developer.team-identifier" = 5UUTQV7999;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "5UUTQV7999.com.DanielWahby.Weatherify"
+    );
+}', teamID='5UUTQV7999', identifier='com.DanielWahby.Weatherify', executablePath='<DVTFilePath:0x7f9a7c72b4e0:'/Users/danielwahby/Library/Developer/Xcode/Archives/2021-04-10/Weatherify 10-04-2021, 8.00 PM.xcarchive/Products/Applications/Weatherify.app/Weatherify'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "5UUTQV7999.com.DanielWahby.Weatherify";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = 5UUTQV7999;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "5UUTQV7999.com.DanielWahby.Weatherify"
+    );
+}
+2021-04-10 18:01:37 +0000  Entitlements for <IDEDistributionItem: 0x7f9a7e9fbc00; bundleID='com.DanielWahby.Weatherify', path='<DVTFilePath:0x7f9a7ba39430:'/Users/danielwahby/Library/Developer/Xcode/Archives/2021-04-10/Weatherify 10-04-2021, 8.00 PM.xcarchive/Products/Applications/Weatherify.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f9a807c40e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f9a807fa690; name='Apple Development: Daniel Wahby (2D42Q257NR)', hash='C9B310542F9850EAEA59E70BAB72BDD437D3FDEF', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f9a80871110>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-11-04 14:47:33 +0000''>', entitlements='{
+    "application-identifier" = "5UUTQV7999.com.DanielWahby.Weatherify";
+    "com.apple.developer.team-identifier" = 5UUTQV7999;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "5UUTQV7999.com.DanielWahby.Weatherify"
+    );
+}', teamID='5UUTQV7999', identifier='com.DanielWahby.Weatherify', executablePath='<DVTFilePath:0x7f9a7c72b4e0:'/Users/danielwahby/Library/Developer/Xcode/Archives/2021-04-10/Weatherify 10-04-2021, 8.00 PM.xcarchive/Products/Applications/Weatherify.app/Weatherify'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "5UUTQV7999.com.DanielWahby.Weatherify";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = 5UUTQV7999;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "5UUTQV7999.com.DanielWahby.Weatherify"
+    );
+}
+2021-04-10 18:01:37 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a7e9fbc00; bundleID='com.DanielWahby.Weatherify', path='<DVTFilePath:0x7f9a7ba39430:'/Users/danielwahby/Library/Developer/Xcode/Archives/2021-04-10/Weatherify 10-04-2021, 8.00 PM.xcarchive/Products/Applications/Weatherify.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f9a807c40e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f9a8087d3b0; name='Apple Development: Daniel Wahby (2D42Q257NR)', hash='C9B310542F9850EAEA59E70BAB72BDD437D3FDEF', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f9a80869890>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-11-04 14:47:33 +0000''>', entitlements='{
+    "application-identifier" = "5UUTQV7999.com.DanielWahby.Weatherify";
+    "com.apple.developer.team-identifier" = 5UUTQV7999;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "5UUTQV7999.com.DanielWahby.Weatherify"
+    );
+}', teamID='5UUTQV7999', identifier='com.DanielWahby.Weatherify', executablePath='<DVTFilePath:0x7f9a7c72b4e0:'/Users/danielwahby/Library/Developer/Xcode/Archives/2021-04-10/Weatherify 10-04-2021, 8.00 PM.xcarchive/Products/Applications/Weatherify.app/Weatherify'>', hardenedRuntime='0'>'> to: /var/folders/dh/34sh65hn71g4mnyrcts9fx800000gn/T/XcodeDistPipeline.~~~DJo1lZ/entitlements~~~fvIoJ5
+2021-04-10 18:01:37 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'CAF37C48DC9E80F0FAFB8EF87333F437A2989ADA' '--entitlements' '/var/folders/dh/34sh65hn71g4mnyrcts9fx800000gn/T/XcodeDistPipeline.~~~DJo1lZ/entitlements~~~fvIoJ5' '--preserve-metadata=identifier,flags,runtime' '/var/folders/dh/34sh65hn71g4mnyrcts9fx800000gn/T/XcodeDistPipeline.~~~DJo1lZ/Root/Payload/Weatherify.app'
+2021-04-10 18:01:37 +0000  /var/folders/dh/34sh65hn71g4mnyrcts9fx800000gn/T/XcodeDistPipeline.~~~DJo1lZ/Root/Payload/Weatherify.app: signed app bundle with Mach-O thin (arm64) [com.DanielWahby.Weatherify]
+2021-04-10 18:01:37 +0000  /usr/bin/codesign exited with 0
+2021-04-10 18:01:37 +0000  Processing step: IDEDistributionZipODRItemStep
+2021-04-10 18:01:37 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-04-10 18:01:37 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-04-10 18:01:37 +0000  Processing step: IDEDistributionCreateIPAStep
+2021-04-10 18:01:37 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/dh/34sh65hn71g4mnyrcts9fx800000gn/T/XcodeDistPipeline.~~~DJo1lZ/Root' '/var/folders/dh/34sh65hn71g4mnyrcts9fx800000gn/T/XcodeDistPipeline.~~~DJo1lZ/Packages/Weatherify.ipa'
+2021-04-10 18:01:37 +0000  >>> Copying /var/folders/dh/34sh65hn71g4mnyrcts9fx800000gn/T/XcodeDistPipeline.~~~DJo1lZ/Root 
+2021-04-10 18:01:37 +0000  copying file ./BCSymbolMaps/DA15885C-EA86-3824-ACEB-C42D1765433A.bcsymbolmap ... 
+2021-04-10 18:01:37 +0000  86350 bytes for ./BCSymbolMaps/DA15885C-EA86-3824-ACEB-C42D1765433A.bcsymbolmap
+copying file ./BCSymbolMaps/4C52DAE0-507F-3AF2-BD1C-1E29292BBC2A.bcsymbolmap ... 
+2021-04-10 18:01:37 +0000  736995 bytes for ./BCSymbolMaps/4C52DAE0-507F-3AF2-BD1C-1E29292BBC2A.bcsymbolmap
+2021-04-10 18:01:37 +0000  copying file ./Payload/Weatherify.app/_CodeSignature/CodeResources ... 
+2021-04-10 18:01:37 +0000  5623 bytes for ./Payload/Weatherify.app/_CodeSignature/CodeResources
+2021-04-10 18:01:37 +0000  copying file ./Payload/Weatherify.app/AppIcon60x60@2x.png ... 
+2021-04-10 18:01:37 +0000  6561 bytes for ./Payload/Weatherify.app/AppIcon60x60@2x.png
+copying file ./Payload/Weatherify.app/LaunchIcon.png ... 
+2021-04-10 18:01:37 +0000  120474 bytes for ./Payload/Weatherify.app/LaunchIcon.png
+2021-04-10 18:01:37 +0000  copying file ./Payload/Weatherify.app/Base.lproj/Main.storyboardc/UINavigationController-3aN-1E-nqO.nib ... 
+2021-04-10 18:01:37 +0000  2072 bytes for ./Payload/Weatherify.app/Base.lproj/Main.storyboardc/UINavigationController-3aN-1E-nqO.nib
+copying file ./Payload/Weatherify.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2021-04-10 18:01:37 +0000  6905 bytes for ./Payload/Weatherify.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/Weatherify.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2021-04-10 18:01:37 +0000  276 bytes for ./Payload/Weatherify.app/Base.lproj/Main.storyboardc/Info.plist
+2021-04-10 18:01:37 +0000  copying file ./Payload/Weatherify.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2021-04-10 18:01:37 +0000  3289 bytes for ./Payload/Weatherify.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2021-04-10 18:01:37 +0000  copying file ./Payload/Weatherify.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+896 bytes for ./Payload/Weatherify.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2021-04-10 18:01:37 +0000  copying file ./Payload/Weatherify.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/Weatherify.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/Weatherify.app/Assets.car ... 
+2021-04-10 18:01:37 +0000  308000 bytes for ./Payload/Weatherify.app/Assets.car
+2021-04-10 18:01:37 +0000  copying file ./Payload/Weatherify.app/AppIcon76x76@2x~ipad.png ... 
+2021-04-10 18:01:37 +0000  8602 bytes for ./Payload/Weatherify.app/AppIcon76x76@2x~ipad.png
+copying file ./Payload/Weatherify.app/Frameworks/Alamofire.framework/_CodeSignature/CodeResources ... 
+2021-04-10 18:01:37 +0000  1798 bytes for ./Payload/Weatherify.app/Frameworks/Alamofire.framework/_CodeSignature/CodeResources
+copying file ./Payload/Weatherify.app/Frameworks/Alamofire.framework/Alamofire ... 
+2021-04-10 18:01:38 +0000  5589952 bytes for ./Payload/Weatherify.app/Frameworks/Alamofire.framework/Alamofire
+2021-04-10 18:01:38 +0000  copying file ./Payload/Weatherify.app/Frameworks/Alamofire.framework/Info.plist ... 
+739 bytes for ./Payload/Weatherify.app/Frameworks/Alamofire.framework/Info.plist
+copying file ./Payload/Weatherify.app/embedded.mobileprovision ... 
+11394 bytes for ./Payload/Weatherify.app/embedded.mobileprovision
+copying file ./Payload/Weatherify.app/Weatherify ... 
+2021-04-10 18:01:38 +0000  490976 bytes for ./Payload/Weatherify.app/Weatherify
+copying file ./Payload/Weatherify.app/Info.plist ... 
+2021-04-10 18:01:38 +0000  1886 bytes for ./Payload/Weatherify.app/Info.plist
+copying file ./Payload/Weatherify.app/PkgInfo ... 
+2021-04-10 18:01:38 +0000  8 bytes for ./Payload/Weatherify.app/PkgInfo
+2021-04-10 18:01:38 +0000  /usr/bin/ditto exited with 0
+2021-04-10 18:01:38 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2021-04-10 18:01:38 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2021-04-10 18:01:38 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2021-04-10 18:01:38 +0000  IDEDistributionItem init <DVTFilePath:0x7f9a7ee827f0:'/var/folders/dh/34sh65hn71g4mnyrcts9fx800000gn/T/XcodeDistPipeline.~~~DJo1lZ/Root/Payload/Weatherify.app/Frameworks/Alamofire.framework'>
+2021-04-10 18:01:38 +0000  IDEDistributionItem init <DVTFilePath:0x7f9a807dedd0:'/var/folders/dh/34sh65hn71g4mnyrcts9fx800000gn/T/XcodeDistPipeline.~~~DJo1lZ/Root/Payload/Weatherify.app'>
+2021-04-10 18:01:38 +0000  Processing step: IDEDistributionCreateManifestStep
+2021-04-10 18:01:38 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so
