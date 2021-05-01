@@ -83,6 +83,11 @@ class MainViewController: UIViewController {
         locationManager?.desiredAccuracy = kCLLocationAccuracyBest
         locationManager?.requestWhenInUseAuthorization()
         locationManager?.startUpdatingLocation()
+        UNUserNotificationCenter.current().requestAuthorization(options: .badge) { (granted, error) in
+            if error != nil {
+                UIApplication.shared.applicationIconBadgeNumber = UserDefaults.standard.integer(forKey: "currentWeatherConditions")
+            }
+        }
 //        getWeatherConditions()
     }
     func handleUnitChange(){
@@ -90,15 +95,24 @@ class MainViewController: UIViewController {
             if unitConroller.selectedSegmentIndex == 0 {
                 UserDefaults.standard.setValue("Celsius", forKey: "unit")
                 self.temperatureLabel.text = "\(self.currentTemperatureInCelsuis)°"
+                UserDefaults.standard.setValue(self.currentTemperatureInCelsuis, forKey: "currentWeatherConditions")
+                UIApplication.shared.applicationIconBadgeNumber = currentTemperatureInCelsuis
+
             }
             else if unitConroller.selectedSegmentIndex == 1 {
                 UserDefaults.standard.setValue("Fahrenhiet", forKey: "unit")
-                self.temperatureLabel.text = "\((Int(Double(self.currentTemperatureInCelsuis) * 1.8) + 32))°"
+                let weatherFahrenheit = (Int(Double(self.currentTemperatureInCelsuis) * 1.8) + 32)
+                self.temperatureLabel.text = "\(weatherFahrenheit)°"
+                UserDefaults.standard.setValue(weatherFahrenheit, forKey: "currentWeatherConditions")
+                UIApplication.shared.applicationIconBadgeNumber = weatherFahrenheit
 
             }
             else{
                 UserDefaults.standard.setValue("Kelvin", forKey: "unit")
-                self.temperatureLabel.text = "\((Int(Double(self.currentTemperatureInCelsuis))+273))°"
+                let weatherKelvin = (Int(Double(self.currentTemperatureInCelsuis))+273)
+                self.temperatureLabel.text = "\(weatherKelvin)°"
+                UserDefaults.standard.setValue(weatherKelvin, forKey: "currentWeatherConditions")
+                UIApplication.shared.applicationIconBadgeNumber = weatherKelvin
 
             }
         }
@@ -128,6 +142,7 @@ class MainViewController: UIViewController {
                     self.cityLabel.text = "\(weatherLocation.name!), \(weatherLocation.country!)"
                     self.temperatureLabel.text = "\(currentWeather.temperature!)°"
                     self.currentTemperatureInCelsuis = currentWeather.temperature!
+                    UIApplication.shared.applicationIconBadgeNumber = self.currentTemperatureInCelsuis
                 case .failure: break
                 }
             }
