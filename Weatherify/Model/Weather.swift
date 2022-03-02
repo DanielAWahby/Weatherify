@@ -21,8 +21,7 @@ struct Weather: Codable {
         return "\(current?.temperature ?? 0)°"
     }
     func getWeatherIcon()->UIImage?{
-        if let weatherDescription = current?.weather_descriptions?.first{
-            print(weatherDescription)
+        if let weatherDescription = current?.weather_descriptions?.first?.lowercased(){
             if weatherDescription.contains("partly"){
                     return UIImage(named:"Partly Cloudy")
             }
@@ -38,11 +37,14 @@ struct Weather: Codable {
             else if weatherDescription.contains("thunder") ||  weatherDescription.contains("lightning"){
                 return UIImage(named:"Lightning")
             }
-            else if weatherDescription.contains("snow"){
+            else if weatherDescription.contains("snow") || weatherDescription.contains("hail"){
                 return UIImage(named:"Snowy")
             }
             else if weatherDescription.contains("rain"){
                 return UIImage(named:"Rainy")
+            }
+            else if weatherDescription.contains("mist"){
+                return UIImage(named: "Mist")
             }
             else{
                 return UIImage(named:"Windy")
