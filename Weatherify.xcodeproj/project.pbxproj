@@ -19,6 +19,7 @@
 		A7A7FC63262206A5009E0DD0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A7FC5E262206A5009E0DD0 /* MainViewController.swift */; };
 		A7A7FC6A26220842009E0DD0 /* LaunchIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A7FC6926220842009E0DD0 /* LaunchIcon.png */; };
 		A7C50E8827CE35D1004527D4 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C50E8127CE34E0004527D4 /* Weather.swift */; };
+		A7C50E8A27CE36D8004527D4 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C50E8927CE36D8004527D4 /* WeatherManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		A7A7FC5E262206A5009E0DD0 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A7A7FC6926220842009E0DD0 /* LaunchIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchIcon.png; sourceTree = "<group>"; };
 		A7C50E8127CE34E0004527D4 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		A7C50E8927CE36D8004527D4 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		C697FA92D1810595E33D6A0A /* Pods_Weatherify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weatherify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB9E7F84B37BF687DBE03122 /* Pods-Weatherify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weatherify.release.xcconfig"; path = "Target Support Files/Pods-Weatherify/Pods-Weatherify.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,10 +108,11 @@
 		A7C50E8027CE34DF004527D4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A7A7FC5A262206A4009E0DD0 /* CurrentWeather.swift */,
+				A7C50E8927CE36D8004527D4 /* WeatherManager.swift */,
 				A7C50E8127CE34E0004527D4 /* Weather.swift */,
 				A7A7FC5C262206A4009E0DD0 /* WeatherLocation.swift */,
 				A7A7FC5B262206A4009E0DD0 /* WeatherRequest.swift */,
+				A7A7FC5A262206A4009E0DD0 /* CurrentWeather.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 			files = (
 				A7A7FC63262206A5009E0DD0 /* MainViewController.swift in Sources */,
 				A7A7FC61262206A5009E0DD0 /* WeatherLocation.swift in Sources */,
+				A7C50E8A27CE36D8004527D4 /* WeatherManager.swift in Sources */,
 				A7A7FC60262206A5009E0DD0 /* WeatherRequest.swift in Sources */,
 				A7455BA02622057E008602F2 /* AppDelegate.swift in Sources */,
 				A7A7FC5F262206A5009E0DD0 /* CurrentWeather.swift in Sources */,
