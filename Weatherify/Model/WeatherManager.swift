@@ -18,7 +18,7 @@ protocol WeatherManagerDelegate {
 struct WeatherManager {
     
     // MARK: Define API base URL & APIKey
-    var API_Key = "b7b94d47b557fe41ed9220a9a6140e9b"
+    var API_Key = "API_KEY"
     var baseURL = "http://api.weatherstack.com/current?access_key=" {
         didSet{}
     }
