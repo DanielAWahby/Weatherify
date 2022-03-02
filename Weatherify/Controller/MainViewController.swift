@@ -11,10 +11,7 @@ import CoreLocation
 import Alamofire
 
 class MainViewController: UIViewController {
-   
-    //           var units = "m"
-    var city = ""
-    var currentTemperatureInCelsuis = 0
+    
     var locationManager : CLLocationManager?
     var weatherManager = WeatherManager()
     
@@ -33,16 +30,7 @@ class MainViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        if UserDefaults.standard.string(forKey: "unit") != nil {
-            switch UserDefaults.standard.string(forKey: "unit")!{
-            case "Fahrenhiet":
-                self.unitConroller.selectedSegmentIndex = 1
-                break
-            default:
-                self.unitConroller.selectedSegmentIndex = 0
-            }
-            self.handleUnitChange()
-        }
+        self.handleUnitChange()
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,14 +38,14 @@ class MainViewController: UIViewController {
         activity.isHidden = false
         activity.startAnimating()
         self.title = "Simple Weather"
-
+        
         let titleTextAttributes = [NSAttributedString.Key.foregroundColor:UIColor(named: "CustomBlue")]
         let secondTitleTextAttributes = [NSAttributedString.Key.foregroundColor:UIColor.black]
-
+        
         unitConroller.setTitleTextAttributes(titleTextAttributes, for: .selected)
         unitConroller.setTitleTextAttributes(secondTitleTextAttributes, for: .init())
-
-
+        
+        
         locationManager = CLLocationManager()
         locationManager?.delegate = self
         locationManager?.desiredAccuracy = kCLLocationAccuracyBest

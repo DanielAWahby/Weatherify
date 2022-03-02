@@ -18,7 +18,7 @@ protocol WeatherManagerDelegate {
 struct WeatherManager {
     
     // MARK: Define API base URL & APIKey
-    var API_Key = "API_KEY"
+    var API_Key = "API_KEY_GOES_HERE"
     var baseURL = "http://api.weatherstack.com/current?access_key=" {
         didSet{}
     }
@@ -29,7 +29,6 @@ struct WeatherManager {
     
     func getWeatherConditions(long:CLLocationDegrees,lat:CLLocationDegrees,units:Character) {
         
-        //                debugPrint(response)
         DispatchQueue.main.async {
             let urlString = "\(baseURL)\(API_Key)&query=\(long),\(lat)&units=\(units)"
             AF.request(urlString ,method: .get,encoding: JSONEncoding.default).responseData { response in
@@ -47,9 +46,9 @@ struct WeatherManager {
     }
     
     func parseJSON(_ data:Data){
-        _ = JSONDecoder()
+        let decoder = JSONDecoder()
         do {
-            let weatherData = try JSONDecoder().decode( Weather.self, from: data)
+            let weatherData = try decoder.decode( Weather.self, from: data)
             delegate?.didUpdateWeather(self, weather: weatherData)
         } catch {
             delegate?.didFailWithError(error: error)
@@ -65,5 +64,5 @@ struct WeatherManager {
         }
     }
     
-   
+    
 }

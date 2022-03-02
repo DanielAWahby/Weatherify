@@ -23,7 +23,7 @@ struct Weather: Codable {
     func getWeatherIcon()->UIImage?{
         if let weatherDescription = current?.weather_descriptions?.first?.lowercased(){
             if weatherDescription.contains("partly"){
-                    return UIImage(named:"Partly Cloudy")
+                return UIImage(named:"Partly Cloudy")
             }
             else if weatherDescription.contains("sunny"){
                 if weatherDescription.contains("cloud"){
